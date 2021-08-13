@@ -15,10 +15,3 @@ provider "aws" {
   profile = "personal"
   region  = "eu-west-1"
 }
-
-# provider "aws" {
-#   version = "~> 3.44.0"
-#   profile = "personal"
-#   region  = "eu-west-1"
-#   alias = "global"
-# }
