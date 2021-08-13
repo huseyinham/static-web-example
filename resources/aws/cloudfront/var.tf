@@ -1,0 +1,11 @@
+variable "cloudfront_name" {}
+variable "enabled" {}
+variable "domain_name" {}
+variable "origin_id" {}
+variable "origin_access_identity" {}
+variable "root_object" {}
+variable "waf_association" {}
+variable "default_ttl" {}
+variable "min_ttl" {}
+variable "max_ttl" {}
+variable "tags" {}
