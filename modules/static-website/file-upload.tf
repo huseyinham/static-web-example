@@ -9,6 +9,7 @@ resource "null_resource" "uploader" {
   }
 
   depends_on = [
-    module.static-website-s3
+    module.static-website-s3,
+    module.static-website-cloudfront
   ]
 }
